@@ -15,7 +15,7 @@
 		F50DA10A2274EC9E00678D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50DA1082274EC9E00678D7A /* LaunchScreen.storyboard */; };
 		F50DA1152274EC9E00678D7A /* ChiPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1142274EC9E00678D7A /* ChiPTTests.swift */; };
 		F50DA1202274EC9E00678D7A /* ChiPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA11F2274EC9E00678D7A /* ChiPTUITests.swift */; };
-		F50DA1332274EE0E00678D7A /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1322274EE0E00678D7A /* SavedViewController.swift */; };
+		F50DA1332274EE0E00678D7A /* StarredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1322274EE0E00678D7A /* StarredViewController.swift */; };
 		F50DA1412274F2F000678D7A /* CTANetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1402274F2F000678D7A /* CTANetworkManager.swift */; };
 		F50DA1442274F3A100678D7A /* Keys.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50DA1432274F3A100678D7A /* Keys.strings */; };
 		F54F27442274FDDD001B3C20 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F54F273E2274FDDD001B3C20 /* README.md */; };
@@ -58,7 +58,7 @@
 		F50DA11B2274EC9E00678D7A /* ChiPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChiPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50DA11F2274EC9E00678D7A /* ChiPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiPTUITests.swift; sourceTree = "<group>"; };
 		F50DA1212274EC9E00678D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F50DA1322274EE0E00678D7A /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		F50DA1322274EE0E00678D7A /* StarredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredViewController.swift; sourceTree = "<group>"; };
 		F50DA1402274F2F000678D7A /* CTANetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTANetworkManager.swift; sourceTree = "<group>"; };
 		F50DA1432274F3A100678D7A /* Keys.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Keys.strings; sourceTree = "<group>"; };
 		F54F273E2274FDDD001B3C20 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -143,13 +143,13 @@
 			path = ChiPTUITests;
 			sourceTree = "<group>";
 		};
-		F50DA12D2274ECCE00678D7A /* SavedTab */ = {
+		F50DA12D2274ECCE00678D7A /* StarredTab */ = {
 			isa = PBXGroup;
 			children = (
 				F50DA13A2274F10600678D7A /* Views */,
 				F50DA1372274F0D200678D7A /* ViewControllers */,
 			);
-			path = SavedTab;
+			path = StarredTab;
 			sourceTree = "<group>";
 		};
 		F50DA12E2274ECDC00678D7A /* SearchTab */ = {
@@ -166,7 +166,7 @@
 			children = (
 				F50DA1302274ED9900678D7A /* AlertsTab */,
 				F50DA12E2274ECDC00678D7A /* SearchTab */,
-				F50DA12D2274ECCE00678D7A /* SavedTab */,
+				F50DA12D2274ECCE00678D7A /* StarredTab */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 		F50DA1372274F0D200678D7A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F50DA1322274EE0E00678D7A /* SavedViewController.swift */,
+				F50DA1322274EE0E00678D7A /* StarredViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -472,7 +472,7 @@
 				F50DA1022274EC9C00678D7A /* SearchViewController.swift in Sources */,
 				F50DA0FE2274EC9C00678D7A /* AppDelegate.swift in Sources */,
 				F54F274A2274FE4A001B3C20 /* KeysStrings.swift in Sources */,
-				F50DA1332274EE0E00678D7A /* SavedViewController.swift in Sources */,
+				F50DA1332274EE0E00678D7A /* StarredViewController.swift in Sources */,
 				F50DA1002274EC9C00678D7A /* AlertsViewController.swift in Sources */,
 				F54F27472274FDDD001B3C20 /* DPLocalizedLabel.swift in Sources */,
 				F54F27482274FDDD001B3C20 /* Localizable.swift in Sources */,
