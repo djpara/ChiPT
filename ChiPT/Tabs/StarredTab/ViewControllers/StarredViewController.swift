@@ -1,5 +1,5 @@
 //
-//  SavedViewController.swift
+//  StarredViewController.swift
 //  ChiPT
 //
 //  Created by David Para on 4/27/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SavedViewController: UIViewController {
+class StarredViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
