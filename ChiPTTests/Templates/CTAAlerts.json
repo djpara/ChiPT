@@ -1,0 +1,1408 @@
+{
+    "CTARoutes": {
+        "TimeStamp": "2019-05-07T22:52:48",
+        "ErrorCode": ["0", "0"],
+        "ErrorMessage": [null, null],
+        "RouteInfo": [{
+            "Route": "Red Line",
+            "RouteColorCode": "c60c30",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "Red",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/redline/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Blue Line",
+            "RouteColorCode": "00a1de",
+            "RouteTextColor": "FFFFFF",
+            "ServiceId": "Blue",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/blueline/"
+            },
+            "RouteStatus": "Planned Work",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Brown Line",
+            "RouteColorCode": "62361b",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "Brn",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/brownline/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Green Line",
+            "RouteColorCode": "009b3a",
+            "RouteTextColor": "FFFFFF",
+            "ServiceId": "G",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/greenline/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Orange Line",
+            "RouteColorCode": "f9461c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "Org",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/orangeline/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Pink Line",
+            "RouteColorCode": "e27ea6",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "Pink",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/pinkline/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Purple Line",
+            "RouteColorCode": "522398",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "P",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/purpleline/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Purple Line Express",
+            "RouteColorCode": "522398",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "Pexp",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/purpleline/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Yellow Line",
+            "RouteColorCode": "f9e300",
+            "RouteTextColor": "000000",
+            "ServiceId": "Y",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/yellowline/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Bronzeville/Union Station",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "1",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/1/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Hyde Park Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "2",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/2/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "King Drive",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "3",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/3/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Cottage Grove",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "4",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/4/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "South Shore Night Bus",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "N5",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/n5/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Jackson Park Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "6",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/6/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Harrison",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "7",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/7/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Halsted",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "8",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/8/"
+            },
+            "RouteStatus": "Bus Stop Relocation",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "South Halsted",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "8A",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/8a/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Ashland",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "9",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/9/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Ashland Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "X9",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/x9/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Museum of Science & Industry",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "10",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/10/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Lincoln",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "11",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/11/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Roosevelt",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "12",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/12/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Jeffery Jump",
+            "RouteColorCode": "0065bd",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "J14",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/j14/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Jeffery Local",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "15",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/15/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "16th-18th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "18",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/18/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "United Center Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "19",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/riding-cta/bus-route/?RouteId=325"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Madison",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "20",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/20/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Cermak",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "21",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/21/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Clark",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "22",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/22/"
+            },
+            "RouteStatus": "Bus Stop Note",
+            "RouteStatusColor": "000000"
+        }, {
+            "Route": "Wentworth",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "24",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/24/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "South Shore Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "26",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/26/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Stony Island",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "28",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/28/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "State",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "29",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/29/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "South Chicago",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "30",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/30/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "31st",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "31",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/31/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "South Michigan",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "34",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/34/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "31st/35th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "35",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/35/"
+            },
+            "RouteStatus": "Bus Stop Relocation",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Broadway",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "36",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/36/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Sedgwick",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "37",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/37/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Pershing",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "39",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/39/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "43rd",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "43",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/43/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Wallace-Racine",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "44",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/44/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "47th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "47",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/47/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "South Damen",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "48",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/48/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Western",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "49",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/49/"
+            },
+            "RouteStatus": "Bus Stop Relocation",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "North Western",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "49B",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/49b/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Western Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "X49",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/x49/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Damen",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "50",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/50/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "51st",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "51",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/51/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Kedzie/California",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "52",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/52/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "South Kedzie",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "52A",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/52a/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Pulaski",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "53",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/53/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "South Pulaski",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "53A",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/53a/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Cicero",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "54",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/54/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "North Cicero/Skokie Blvd.",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "54A",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/54a/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "South Cicero",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "54B",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/54b/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Garfield",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "55",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/55/"
+            },
+            "RouteStatus": "Bus Stop Relocation",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "55th/Austin",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "55A",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/55a/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "55th/Narragansett",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "55N",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/55n/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Milwaukee",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "56",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/56/"
+            },
+            "RouteStatus": "Bus Stop Relocation",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Laramie",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "57",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/57/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "59th/61st",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "59",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/59/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Blue Island/26th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "60",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/60/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Archer",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "62",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/62/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Archer/Harlem",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "62H",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/62h/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "63rd",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "63",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/63/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "West 63rd",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "63W",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/63w/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Grand",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "65",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/65/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Chicago",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "66",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/66/"
+            },
+            "RouteStatus": "Bus Stop Note",
+            "RouteStatusColor": "000000"
+        }, {
+            "Route": "67th-69th-71st",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "67",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/67/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Northwest Highway",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "68",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/68/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Division",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "70",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/70/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "71st/South Shore",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "71",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/71/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "North",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "72",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/72/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Armitage",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "73",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/73/"
+            },
+            "RouteStatus": "Bus Stop Relocation",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Fullerton",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "74",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/74/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "74th-75th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "75",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/75/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Diversey",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "76",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/76/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Belmont",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "77",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/77/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Montrose",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "78",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/78/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "79th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "79",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/79/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Irving Park",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "80",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/80/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Lawrence",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "81",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/81/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "West Lawrence",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "81W",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/81w/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Kimball-Homan",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "82",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/82/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Peterson",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "84",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/84/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Central",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "85",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/85/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "North Central",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "85A",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/85a/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Narragansett/Ridgeland",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "86",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/86/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "87th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "87",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/87/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Higgins",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "88",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/88/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Harlem",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "90",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/90/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Austin",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "91",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/91/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Foster",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "92",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/92/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "California/Dodge",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "93",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/93/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "South California",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "94",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/94/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "95th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "95",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/95/"
+            },
+            "RouteStatus": "Bus Stop Relocation",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Lunt",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "96",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/96/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Skokie",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "97",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/97/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Avon Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "X98",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/x98/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Jeffery Manor Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "100",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/100/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "West 103rd",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "103",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/103/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "East 103rd",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "106",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/106/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Halsted/95th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "108",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/108/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "111th/King Drive",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "111",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/111/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Pullman Shuttle",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "111A",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/111a/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Vincennes/111th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "112",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/112/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Pullman/115th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "115",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/115/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Michigan/119th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "119",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/119/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Ogilvie/Streeterville Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "120",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/120/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Union/Streeterville Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "121",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/121/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Navy Pier",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "124",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/124/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Water Tower Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "125",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/125/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Jackson",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "126",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/126/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Soldier Field Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "128",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/riding-cta/bus-route/?RouteId=326"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Museum Campus",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "130",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/riding-cta/bus-route/?RouteId=327"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Stockton/LaSalle Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "134",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/134/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Clarendon/LaSalle Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "135",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/135/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Sheridan/LaSalle Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "136",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/136/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Stockton/Michigan Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "143",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/143/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Inner Drive/Michigan Exp.",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "146",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/146/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "Outer Drive Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "147",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/147/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Clarendon/Michigan Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "148",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/148/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Sheridan",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "151",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/151/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Addison",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "152",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/152/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Devon",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "155",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/155/"
+            },
+            "RouteStatus": "Planned Reroute",
+            "RouteStatusColor": "06c"
+        }, {
+            "Route": "LaSalle",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "156",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/156/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Streeterville/Taylor",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "157",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/157/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "West 65th",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "165",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/165/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "69th-UPS Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "169",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/169/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "U. of Chicago/Hyde Park",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "171",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/171/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "U. of Chicago/Kenwood",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "172",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/172/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "U. of Chicago Hospitals Express",
+            "RouteColorCode": "b71234",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "192",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/192/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Central/Ridge",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "201",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/201/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "Evanston Circulator",
+            "RouteColorCode": "565a5c",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "206",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/bus/206/"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "All Routes",
+            "RouteColorCode": "000000",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "Systemwide",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/travel_information/systemalerts.aspx"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "All Bus Routes",
+            "RouteColorCode": "000000",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "Bus",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/travel_information/bus_status.aspx"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "All Train Routes",
+            "RouteColorCode": "000000",
+            "RouteTextColor": "ffffff",
+            "ServiceId": "Train",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com/travel_information/railstatus.aspx"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }, {
+            "Route": "New",
+            "RouteColorCode": null,
+            "RouteTextColor": "ffffff",
+            "ServiceId": "456",
+            "RouteURL": {
+                "#cdata-section": "http://www.transitchicago.com"
+            },
+            "RouteStatus": "Normal Service",
+            "RouteStatusColor": "404040"
+        }]
+    }
+}
