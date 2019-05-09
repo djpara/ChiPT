@@ -8,11 +8,16 @@
 
 import Foundation
 
+// MARK: Main Struct
+
 struct CTAAlerts: Decodable {
+    
+    // MARK: - Properties
+    
     var CTARoutes: CTARoutes?
 }
 
-// MARK: - ApiProtocol
+// MARK: - Api Protocol extension
 
 extension CTAAlerts: ApiProtocol {
     

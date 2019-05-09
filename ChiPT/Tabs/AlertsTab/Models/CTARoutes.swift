@@ -8,9 +8,12 @@
 
 import Foundation
 
-// MARK: - Struct
+// MARK: Main Struct
 
 struct CTARoutes: Decodable {
+    
+    // MARK: - Properties
+    
     var TimeStamp: String?
     var ErrorCode: [String?]?
     var ErrorMessage: [String?]?

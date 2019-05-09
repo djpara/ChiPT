@@ -9,6 +9,8 @@
 import UIKit
 
 class AlertsViewController: UIViewController {
+    
+    // MARK: - Override Instance Functions
 
     override func viewDidLoad() {
         super.viewDidLoad()

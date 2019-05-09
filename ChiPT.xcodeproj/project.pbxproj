@@ -16,10 +16,10 @@
 		F50DA1152274EC9E00678D7A /* ChiPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1142274EC9E00678D7A /* ChiPTTests.swift */; };
 		F50DA1202274EC9E00678D7A /* ChiPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA11F2274EC9E00678D7A /* ChiPTUITests.swift */; };
 		F50DA1332274EE0E00678D7A /* StarredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1322274EE0E00678D7A /* StarredViewController.swift */; };
-		F50DA1412274F2F000678D7A /* CTANetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1402274F2F000678D7A /* CTANetworkManager.swift */; };
+		F50DA1412274F2F000678D7A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1402274F2F000678D7A /* NetworkManager.swift */; };
 		F50DA1442274F3A100678D7A /* Keys.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50DA1432274F3A100678D7A /* Keys.strings */; };
 		F54D88C02282636B009D882B /* ApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D88BF2282636B009D882B /* ApiProtocol.swift */; };
-		F54D88C522828969009D882B /* CTARoutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D88C422828969009D882B /* CTARoutesTests.swift */; };
+		F54D88C522828969009D882B /* CTAAlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D88C422828969009D882B /* CTAAlertsTests.swift */; };
 		F54D88C9228289D1009D882B /* CTAAlerts.json in Resources */ = {isa = PBXBuildFile; fileRef = F54D88C7228289D1009D882B /* CTAAlerts.json */; };
 		F54D88CE22828BEA009D882B /* CTARoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCFDE22275FA1500F942AB /* CTARoutes.swift */; };
 		F54D88CF22828C09009D882B /* CTARouteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCFDE42275FA7800F942AB /* CTARouteInfo.swift */; };
@@ -38,6 +38,11 @@
 		F5CCFDE32275FA1500F942AB /* CTARoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCFDE22275FA1500F942AB /* CTARoutes.swift */; };
 		F5CCFDE52275FA7800F942AB /* CTARouteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCFDE42275FA7800F942AB /* CTARouteInfo.swift */; };
 		F5CCFDE72275FAC900F942AB /* CTARouteURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCFDE62275FAC900F942AB /* CTARouteURL.swift */; };
+		F5E56F5E2283E9E100E0250E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1402274F2F000678D7A /* NetworkManager.swift */; };
+		F5E56F602283F3D700E0250E /* CTAAlertsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E56F5F2283F3D700E0250E /* CTAAlertsNetworkManager.swift */; };
+		F5E56F622283FB0400E0250E /* CTAAlertsDownloadOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E56F612283FB0400E0250E /* CTAAlertsDownloadOperationTests.swift */; };
+		F5E56F642284036200E0250E /* CTAAlertsDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCFDDE2275F3E300F942AB /* CTAAlertsDownloadOperation.swift */; };
+		F5E56F652284039F00E0250E /* CTAAlertsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E56F5F2283F3D700E0250E /* CTAAlertsNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,10 +78,10 @@
 		F50DA11F2274EC9E00678D7A /* ChiPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiPTUITests.swift; sourceTree = "<group>"; };
 		F50DA1212274EC9E00678D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F50DA1322274EE0E00678D7A /* StarredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredViewController.swift; sourceTree = "<group>"; };
-		F50DA1402274F2F000678D7A /* CTANetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTANetworkManager.swift; sourceTree = "<group>"; };
+		F50DA1402274F2F000678D7A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F50DA1432274F3A100678D7A /* Keys.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Keys.strings; sourceTree = "<group>"; };
 		F54D88BF2282636B009D882B /* ApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProtocol.swift; sourceTree = "<group>"; };
-		F54D88C422828969009D882B /* CTARoutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTARoutesTests.swift; sourceTree = "<group>"; };
+		F54D88C422828969009D882B /* CTAAlertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAAlertsTests.swift; sourceTree = "<group>"; };
 		F54D88C7228289D1009D882B /* CTAAlerts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CTAAlerts.json; sourceTree = "<group>"; };
 		F54D88D922828D9E009D882B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F54D88DE228294C8009D882B /* CTAAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAAlerts.swift; sourceTree = "<group>"; };
@@ -90,6 +95,8 @@
 		F5CCFDE22275FA1500F942AB /* CTARoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTARoutes.swift; sourceTree = "<group>"; };
 		F5CCFDE42275FA7800F942AB /* CTARouteInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTARouteInfo.swift; sourceTree = "<group>"; };
 		F5CCFDE62275FAC900F942AB /* CTARouteURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTARouteURL.swift; sourceTree = "<group>"; };
+		F5E56F5F2283F3D700E0250E /* CTAAlertsNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAAlertsNetworkManager.swift; sourceTree = "<group>"; };
+		F5E56F612283FB0400E0250E /* CTAAlertsDownloadOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAAlertsDownloadOperationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,10 +159,10 @@
 		F50DA1132274EC9E00678D7A /* ChiPTTests */ = {
 			isa = PBXGroup;
 			children = (
-				F54D88C6228289D1009D882B /* Templates */,
-				F54D88C1228288FE009D882B /* TabsTests */,
-				F50DA1142274EC9E00678D7A /* ChiPTTests.swift */,
 				F50DA1162274EC9E00678D7A /* Info.plist */,
+				F50DA1142274EC9E00678D7A /* ChiPTTests.swift */,
+				F54D88C1228288FE009D882B /* TabsTests */,
+				F54D88C6228289D1009D882B /* Templates */,
 			);
 			path = ChiPTTests;
 			sourceTree = "<group>";
@@ -172,8 +179,8 @@
 		F50DA12D2274ECCE00678D7A /* StarredTab */ = {
 			isa = PBXGroup;
 			children = (
-				F50DA13A2274F10600678D7A /* Views */,
 				F50DA1372274F0D200678D7A /* ViewControllers */,
+				F50DA13A2274F10600678D7A /* Views */,
 			);
 			path = StarredTab;
 			sourceTree = "<group>";
@@ -181,8 +188,8 @@
 		F50DA12E2274ECDC00678D7A /* SearchTab */ = {
 			isa = PBXGroup;
 			children = (
-				F50DA1392274F0F900678D7A /* Views */,
 				F50DA1352274F0B300678D7A /* ViewControllers */,
+				F50DA1392274F0F900678D7A /* Views */,
 			);
 			path = SearchTab;
 			sourceTree = "<group>";
@@ -200,8 +207,8 @@
 		F50DA1302274ED9900678D7A /* AlertsTab */ = {
 			isa = PBXGroup;
 			children = (
-				F5CCFDE12275F9F400F942AB /* Operations */,
 				F5CCFDDD2275F3A000F942AB /* Models */,
+				F5CCFDE12275F9F400F942AB /* Operations */,
 				F50DA1362274F0C300678D7A /* ViewControllers */,
 				F50DA1382274F0F200678D7A /* Views */,
 			);
@@ -211,11 +218,11 @@
 		F50DA1312274EDBB00678D7A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				F5CCFDE8227606E100F942AB /* Network */,
-				F50DA1422274F36800678D7A /* Localization */,
 				F50DA13E2274F18100678D7A /* AppDelegate */,
 				F50DA13D2274F17600678D7A /* Assets */,
+				F50DA1422274F36800678D7A /* Localization */,
 				F50DA13C2274F15000678D7A /* Models */,
+				F5CCFDE8227606E100F942AB /* Network */,
 				F50DA13F2274F18A00678D7A /* Storyboards */,
 				F50DA13B2274F11500678D7A /* Views */,
 			);
@@ -285,7 +292,6 @@
 		F50DA13C2274F15000678D7A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F50DA1402274F2F000678D7A /* CTANetworkManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -342,7 +348,8 @@
 		F54D88C322828937009D882B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F54D88C422828969009D882B /* CTARoutesTests.swift */,
+				F54D88C422828969009D882B /* CTAAlertsTests.swift */,
+				F5E56F612283FB0400E0250E /* CTAAlertsDownloadOperationTests.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -404,6 +411,7 @@
 			isa = PBXGroup;
 			children = (
 				F54D88DE228294C8009D882B /* CTAAlerts.swift */,
+				F5E56F5F2283F3D700E0250E /* CTAAlertsNetworkManager.swift */,
 				F5CCFDE42275FA7800F942AB /* CTARouteInfo.swift */,
 				F5CCFDE22275FA1500F942AB /* CTARoutes.swift */,
 				F5CCFDE62275FAC900F942AB /* CTARouteURL.swift */,
@@ -423,6 +431,7 @@
 			isa = PBXGroup;
 			children = (
 				F54D88BF2282636B009D882B /* ApiProtocol.swift */,
+				F50DA1402274F2F000678D7A /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -567,8 +576,9 @@
 			files = (
 				F5CCFDE32275FA1500F942AB /* CTARoutes.swift in Sources */,
 				F54F274D22750B4F001B3C20 /* DPLocalizedButton.swift in Sources */,
-				F50DA1412274F2F000678D7A /* CTANetworkManager.swift in Sources */,
+				F50DA1412274F2F000678D7A /* NetworkManager.swift in Sources */,
 				F50DA1022274EC9C00678D7A /* SearchViewController.swift in Sources */,
+				F5E56F602283F3D700E0250E /* CTAAlertsNetworkManager.swift in Sources */,
 				F50DA0FE2274EC9C00678D7A /* AppDelegate.swift in Sources */,
 				F54F274A2274FE4A001B3C20 /* KeysStrings.swift in Sources */,
 				F5CCFDE72275FAC900F942AB /* CTARouteURL.swift in Sources */,
@@ -590,11 +600,15 @@
 			files = (
 				F54D88E02282957E009D882B /* CTAAlerts.swift in Sources */,
 				F54D88CF22828C09009D882B /* CTARouteInfo.swift in Sources */,
+				F5E56F642284036200E0250E /* CTAAlertsDownloadOperation.swift in Sources */,
 				F54D88CE22828BEA009D882B /* CTARoutes.swift in Sources */,
 				F54D88D022828C0D009D882B /* CTARouteURL.swift in Sources */,
-				F54D88C522828969009D882B /* CTARoutesTests.swift in Sources */,
+				F5E56F5E2283E9E100E0250E /* NetworkManager.swift in Sources */,
+				F54D88C522828969009D882B /* CTAAlertsTests.swift in Sources */,
 				F54D88DD22828E54009D882B /* ApiProtocol.swift in Sources */,
 				F50DA1152274EC9E00678D7A /* ChiPTTests.swift in Sources */,
+				F5E56F622283FB0400E0250E /* CTAAlertsDownloadOperationTests.swift in Sources */,
+				F5E56F652284039F00E0250E /* CTAAlertsNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

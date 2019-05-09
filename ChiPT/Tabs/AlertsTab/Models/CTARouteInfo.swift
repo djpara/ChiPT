@@ -8,9 +8,12 @@
 
 import Foundation
 
-// MARK: - Struct
+// MARK: Main Struct
 
 struct CTARouteInfo: Decodable {
+    
+    // MARK: - Properties
+    
     var Route: String?
     var RouteColorCode: String?
     var RouteTextColor: String?

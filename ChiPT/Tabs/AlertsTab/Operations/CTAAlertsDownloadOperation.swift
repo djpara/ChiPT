@@ -8,6 +8,8 @@
 
 import Foundation
 
+// MARK: Main Class
+
 class CTAAlertsDownloadOperation: Operation {
     
     // MARK: - Enums
@@ -18,13 +20,11 @@ class CTAAlertsDownloadOperation: Operation {
     
     // MARK: - Private Static Variables
     
-    private static let _operationQueue = OperationQueue()
-    
     private let _baseUrl = "http://www.transitchicago.com/api/1.0/routes.aspx"
     private let _toJson = "OutputType=JSON"
     private var _url: String
     
-    private var _completionBlock: (()->CTARoutes)?
+    private var _completionBlock: ((Decodable?) -> Void)?
     
     // MARK: - Initializers
     
@@ -39,19 +39,34 @@ class CTAAlertsDownloadOperation: Operation {
         let parameter = "\(routesParameter.rawValue)=\(value)"
         
         self.init()
-        _url = "\(_baseUrl)?\(parameter)&\(_toJson)"
+        _url = "\(_baseUrl)?\(parameter)&\(_toJson)" // Override base initializer's reference setting
+    }
+    
+    convenience init(completion: @escaping (Decodable?) -> Void) {
+        
+        self.init()
+        addCompletionBlock(completion)
     }
     
     // MARK: - Override Instance Functions
     
     override func main() {
-//        <#code#>
-    }
-    
-    // MARK: - Private Instance Functions
-    
-    private func addCompletionBlock(_ completion: @escaping ()->CTARoutes) {
-        _completionBlock = completion
+        guard !isCancelled else {
+            print("Operation is cancelled")
+            return
+        }
+        
+        guard let url = URL(string: _url) else {
+            print("Invalid url")
+            return
+        }
+        
+        guard let completion = _completionBlock else {
+            print("Completion block required to make a network request")
+            return
+        }
+        
+        CTAAlertsNetworkManager.load(url, withCompletion: completion)
     }
     
 }
@@ -60,9 +75,16 @@ class CTAAlertsDownloadOperation: Operation {
 
 extension CTAAlertsDownloadOperation {
     
-    // Variables
-    static var operationQueue: OperationQueue {
-        get { return _operationQueue }
+    // Instance Functions
+    
+    func addCompletionBlock(_ completion: @escaping (Decodable?) -> Void) {
+        
+        let modifiedCompletionBlock: (Decodable?) -> Void = { model in
+            completion(model)
+            self._completionBlock = nil
+        }
+        
+        _completionBlock = modifiedCompletionBlock
     }
     
 }

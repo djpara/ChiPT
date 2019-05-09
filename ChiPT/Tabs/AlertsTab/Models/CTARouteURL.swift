@@ -8,10 +8,15 @@
 
 import Foundation
 
-// MARK: - Struct
+// MARK: Main Struct
 
 struct CTARouteURL: Decodable {
+    
+    // MARK: - Properties
+    
     var CDataSection: String?
+    
+    // MARK: - Initializers
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
