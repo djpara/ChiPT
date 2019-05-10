@@ -18,10 +18,6 @@ class CTAAlertsDownloadOperation<Alerts: ApiProtocol>: DownloadOperation {
         case type = "type", routeid = "routeid", stationid = "stationid"
     }
     
-    // MARK: - Private Static Variables
-    
-    private let _toJson = ""
-    
     // MARK: - Initializers
     
     override init() {
