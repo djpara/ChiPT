@@ -10,42 +10,38 @@ import Foundation
 
 // MARK: Main Class
 
-class CTAAlertsDownloadOperation: Operation {
+class CTAAlertsDownloadOperation<Alerts: ApiProtocol>: DownloadOperation {
     
     // MARK: - Enums
     
-    enum RoutesParameters: String {
+    enum RoutesParameter: String {
         case type = "type", routeid = "routeid", stationid = "stationid"
     }
     
     // MARK: - Private Static Variables
     
-    private let _baseUrl = "http://www.transitchicago.com/api/1.0/routes.aspx"
-    private let _toJson = "OutputType=JSON"
-    private var _url: String
-    
-    private var _completionBlock: ((Decodable?) -> Void)?
+    private let _toJson = ""
     
     // MARK: - Initializers
     
     override init() {
-        
-        _url = "\(_baseUrl)?\(_toJson)"
         super.init()
+        
+        baseUrl = "http://www.transitchicago.com/api/1.0/routes.aspx"
+        url = "\(baseUrl)?OutputType=JSON"
     }
     
-    convenience init(_ routesParameter: RoutesParameters, value: String) {
-        
-        let parameter = "\(routesParameter.rawValue)=\(value)"
-        
+    convenience init(_ routesParameter: RoutesParameter, value: String) {
         self.init()
-        _url = "\(_baseUrl)?\(parameter)&\(_toJson)" // Override base initializer's reference setting
+        
+        let parameter = "\(routesParameter.rawValue)=\(value)"        
+        url = "\(baseUrl)?\(parameter)&OutputType=JSON" // Override base initializer's reference setting
     }
     
     convenience init(completion: @escaping (Decodable?) -> Void) {
         
         self.init()
-        addCompletionBlock(completion)
+        addDownloadCompletionBlock(completion)
     }
     
     // MARK: - Override Instance Functions
@@ -56,35 +52,17 @@ class CTAAlertsDownloadOperation: Operation {
             return
         }
         
-        guard let url = URL(string: _url) else {
+        guard let url = URL(string: url) else {
             print("Invalid url")
             return
         }
         
-        guard let completion = _completionBlock else {
+        guard let completion = onDownloadCompletion else {
             print("Completion block required to make a network request")
             return
         }
         
-        CTAAlertsNetworkManager.load(url, withCompletion: completion)
-    }
-    
-}
-
-// MARK: - Internal extension
-
-extension CTAAlertsDownloadOperation {
-    
-    // Instance Functions
-    
-    func addCompletionBlock(_ completion: @escaping (Decodable?) -> Void) {
-        
-        let modifiedCompletionBlock: (Decodable?) -> Void = { model in
-            completion(model)
-            self._completionBlock = nil
-        }
-        
-        _completionBlock = modifiedCompletionBlock
+        CTAAlertsNetworkManager<Alerts>.load(url, withCompletion: completion)
     }
     
 }

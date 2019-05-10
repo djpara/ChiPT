@@ -12,7 +12,7 @@ import Foundation
 
 struct CTARouteURL: Decodable {
     
-    // MARK: - Properties
+    // MARK: - Instance Properties
     
     var CDataSection: String?
     

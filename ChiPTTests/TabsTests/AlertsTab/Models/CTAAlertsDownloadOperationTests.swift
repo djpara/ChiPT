@@ -13,8 +13,8 @@ class CTAAlertsDownloadOperationTests: XCTestCase {
     
     private var _downloadExpectation: XCTestExpectation!
     private var _operationQueue: OperationQueue!
-    private var _operation: CTAAlertsDownloadOperation!
     private var _alerts: CTAAlerts?
+    private var _alertsWithRouteId: CTAAlerts_RouteId?
 
     override func setUp() {
         _downloadExpectation = expectation(description: "Downloding Data")
@@ -22,14 +22,14 @@ class CTAAlertsDownloadOperationTests: XCTestCase {
     }
 
     override func tearDown() {
-        _operation = nil
         _alerts = nil
+        _alertsWithRouteId = nil
     }
 
     func testAllCTAAlertsDownload() {
 
-        _operation = CTAAlertsDownloadOperation(completion: getAllAlertsCompletion())
-        _operationQueue.addOperation(_operation)
+        let operation = CTAAlertsDownloadOperation<CTAAlerts>(completion: getAllAlertsCompletion())
+        _operationQueue.addOperation(operation)
         
         waitForExpectations(timeout: 15, handler: nil)
         
@@ -37,8 +37,26 @@ class CTAAlertsDownloadOperationTests: XCTestCase {
             XCTFail()
             return
         }
-        
+    
+        print(firstRoute)
         XCTAssertTrue(firstRoute == "Red Line")
+    }
+    
+    func test78AlertDownload() {
+        
+        let operation = CTAAlertsDownloadOperation<CTAAlerts_RouteId>(.routeid, value: "78")
+        operation.addDownloadCompletionBlock(getBlueLineCompletion())
+        _operationQueue.addOperation(operation)
+        
+        waitForExpectations(timeout: 5, handler: nil)
+        
+        guard let firstRoute = _alertsWithRouteId?.CTARoutes?.RouteInfo?.Route else {
+            XCTFail()
+            return
+        }
+        
+        print(firstRoute)
+        XCTAssertTrue(firstRoute == "Montrose")
     }
 
     func testPerformanceExample() {
@@ -60,6 +78,23 @@ class CTAAlertsDownloadOperationTests: XCTestCase {
             }
             
             self._alerts = model
+            
+            self._downloadExpectation.fulfill()
+        }
+        
+        return function
+    }
+    
+    private func getBlueLineCompletion() -> ((Decodable?) -> Void) {
+        
+        let function: (Decodable?) -> Void =  { model in
+            
+            guard let model = model as? CTAAlerts_RouteId else {
+                XCTFail()
+                return
+            }
+            
+            self._alertsWithRouteId = model
             
             self._downloadExpectation.fulfill()
         }

@@ -12,10 +12,16 @@ import Foundation
 
 struct CTARoutes: Decodable {
     
-    // MARK: - Properties
-    
     var TimeStamp: String?
     var ErrorCode: [String?]?
     var ErrorMessage: [String?]?
     var RouteInfo: [CTARouteInfo?]?
+}
+
+// MARK: - Secondary Struct
+
+struct CTARoutes_RouteId: Decodable {
+
+    var TimeStamp: String?
+    var RouteInfo: CTARouteInfo?
 }

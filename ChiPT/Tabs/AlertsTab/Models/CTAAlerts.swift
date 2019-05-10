@@ -12,8 +12,6 @@ import Foundation
 
 struct CTAAlerts: Decodable {
     
-    // MARK: - Properties
-    
     var CTARoutes: CTARoutes?
 }
 
@@ -21,8 +19,19 @@ struct CTAAlerts: Decodable {
 
 extension CTAAlerts: ApiProtocol {
     
-    // MARK: - Typealiases
-    
     typealias Model = CTAAlerts
+}
+
+// MARK: - Secondary Struct
+
+struct CTAAlerts_RouteId: Decodable {
     
+    var CTARoutes: CTARoutes_RouteId?
+}
+
+// MARK: - Api Protocol extension
+
+extension CTAAlerts_RouteId: ApiProtocol {
+    
+    typealias Model = CTAAlerts_RouteId
 }

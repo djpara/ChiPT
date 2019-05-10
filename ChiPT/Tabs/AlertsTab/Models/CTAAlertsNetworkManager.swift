@@ -10,15 +10,11 @@ import Foundation
 
 // MARK: Main Struct
 
-struct CTAAlertsNetworkManager { }
-
+struct CTAAlertsNetworkManager<Alerts: ApiProtocol> { }
 
 // MARK: - Network Manager extension
 
 extension CTAAlertsNetworkManager: NetworkManager {
     
-    // MARK: - Typealiases
-    
-    typealias Model = CTAAlerts
-    
+    typealias Model = Alerts
 }

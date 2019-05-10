@@ -18,6 +18,7 @@
 		F50DA1332274EE0E00678D7A /* StarredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1322274EE0E00678D7A /* StarredViewController.swift */; };
 		F50DA1412274F2F000678D7A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA1402274F2F000678D7A /* NetworkManager.swift */; };
 		F50DA1442274F3A100678D7A /* Keys.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50DA1432274F3A100678D7A /* Keys.strings */; };
+		F541569322851839006471D9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541569222851839006471D9 /* UIColor+Extension.swift */; };
 		F54D88C02282636B009D882B /* ApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D88BF2282636B009D882B /* ApiProtocol.swift */; };
 		F54D88C522828969009D882B /* CTAAlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D88C422828969009D882B /* CTAAlertsTests.swift */; };
 		F54D88C9228289D1009D882B /* CTAAlerts.json in Resources */ = {isa = PBXBuildFile; fileRef = F54D88C7228289D1009D882B /* CTAAlerts.json */; };
@@ -34,6 +35,8 @@
 		F54F27482274FDDD001B3C20 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54F27432274FDDD001B3C20 /* Localizable.swift */; };
 		F54F274A2274FE4A001B3C20 /* KeysStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54F27492274FE4A001B3C20 /* KeysStrings.swift */; };
 		F54F274D22750B4F001B3C20 /* DPLocalizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54F274C22750B4E001B3C20 /* DPLocalizedButton.swift */; };
+		F5AE8B35228529910065CFC3 /* DownloadOperation+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE8B34228529910065CFC3 /* DownloadOperation+Protocol.swift */; };
+		F5AE8B36228531E20065CFC3 /* DownloadOperation+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE8B34228529910065CFC3 /* DownloadOperation+Protocol.swift */; };
 		F5CCFDDF2275F3E300F942AB /* CTAAlertsDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCFDDE2275F3E300F942AB /* CTAAlertsDownloadOperation.swift */; };
 		F5CCFDE32275FA1500F942AB /* CTARoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCFDE22275FA1500F942AB /* CTARoutes.swift */; };
 		F5CCFDE52275FA7800F942AB /* CTARouteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCFDE42275FA7800F942AB /* CTARouteInfo.swift */; };
@@ -80,6 +83,7 @@
 		F50DA1322274EE0E00678D7A /* StarredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredViewController.swift; sourceTree = "<group>"; };
 		F50DA1402274F2F000678D7A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F50DA1432274F3A100678D7A /* Keys.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Keys.strings; sourceTree = "<group>"; };
+		F541569222851839006471D9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		F54D88BF2282636B009D882B /* ApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProtocol.swift; sourceTree = "<group>"; };
 		F54D88C422828969009D882B /* CTAAlertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAAlertsTests.swift; sourceTree = "<group>"; };
 		F54D88C7228289D1009D882B /* CTAAlerts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CTAAlerts.json; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 		F54F27432274FDDD001B3C20 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		F54F27492274FE4A001B3C20 /* KeysStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysStrings.swift; sourceTree = "<group>"; };
 		F54F274C22750B4E001B3C20 /* DPLocalizedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPLocalizedButton.swift; sourceTree = "<group>"; };
+		F5AE8B34228529910065CFC3 /* DownloadOperation+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DownloadOperation+Protocol.swift"; sourceTree = "<group>"; };
 		F5CCFDDE2275F3E300F942AB /* CTAAlertsDownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAAlertsDownloadOperation.swift; sourceTree = "<group>"; };
 		F5CCFDE22275FA1500F942AB /* CTARoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTARoutes.swift; sourceTree = "<group>"; };
 		F5CCFDE42275FA7800F942AB /* CTARouteInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTARouteInfo.swift; sourceTree = "<group>"; };
@@ -148,7 +153,7 @@
 		F50DA0FC2274EC9C00678D7A /* ChiPT */ = {
 			isa = PBXGroup;
 			children = (
-				F54F273D2274FDDD001B3C20 /* DPLocalization */,
+				F5AE8B33228529440065CFC3 /* DP */,
 				F50DA1312274EDBB00678D7A /* Main */,
 				F50DA1342274EF7F00678D7A /* SupportingFiles */,
 				F50DA12F2274ECF500678D7A /* Tabs */,
@@ -222,7 +227,6 @@
 				F50DA13D2274F17600678D7A /* Assets */,
 				F50DA1422274F36800678D7A /* Localization */,
 				F50DA13C2274F15000678D7A /* Models */,
-				F5CCFDE8227606E100F942AB /* Network */,
 				F50DA13F2274F18A00678D7A /* Storyboards */,
 				F50DA13B2274F11500678D7A /* Views */,
 			);
@@ -329,6 +333,14 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
+		F54156912285181D006471D9 /* DPExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				F541569222851839006471D9 /* UIColor+Extension.swift */,
+			);
+			path = DPExtensions;
+			sourceTree = "<group>";
+		};
 		F54D88C1228288FE009D882B /* TabsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,6 +419,25 @@
 			path = Localizable;
 			sourceTree = "<group>";
 		};
+		F5AE8B322285287A0065CFC3 /* DPOperations */ = {
+			isa = PBXGroup;
+			children = (
+				F5AE8B34228529910065CFC3 /* DownloadOperation+Protocol.swift */,
+			);
+			path = DPOperations;
+			sourceTree = "<group>";
+		};
+		F5AE8B33228529440065CFC3 /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				F54156912285181D006471D9 /* DPExtensions */,
+				F54F273D2274FDDD001B3C20 /* DPLocalization */,
+				F5CCFDE8227606E100F942AB /* DPNetwork */,
+				F5AE8B322285287A0065CFC3 /* DPOperations */,
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
 		F5CCFDDD2275F3A000F942AB /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,13 +458,13 @@
 			path = Operations;
 			sourceTree = "<group>";
 		};
-		F5CCFDE8227606E100F942AB /* Network */ = {
+		F5CCFDE8227606E100F942AB /* DPNetwork */ = {
 			isa = PBXGroup;
 			children = (
 				F54D88BF2282636B009D882B /* ApiProtocol.swift */,
 				F50DA1402274F2F000678D7A /* NetworkManager.swift */,
 			);
-			path = Network;
+			path = DPNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -574,9 +605,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5AE8B35228529910065CFC3 /* DownloadOperation+Protocol.swift in Sources */,
 				F5CCFDE32275FA1500F942AB /* CTARoutes.swift in Sources */,
 				F54F274D22750B4F001B3C20 /* DPLocalizedButton.swift in Sources */,
 				F50DA1412274F2F000678D7A /* NetworkManager.swift in Sources */,
+				F541569322851839006471D9 /* UIColor+Extension.swift in Sources */,
 				F50DA1022274EC9C00678D7A /* SearchViewController.swift in Sources */,
 				F5E56F602283F3D700E0250E /* CTAAlertsNetworkManager.swift in Sources */,
 				F50DA0FE2274EC9C00678D7A /* AppDelegate.swift in Sources */,
@@ -600,6 +633,7 @@
 			files = (
 				F54D88E02282957E009D882B /* CTAAlerts.swift in Sources */,
 				F54D88CF22828C09009D882B /* CTARouteInfo.swift in Sources */,
+				F5AE8B36228531E20065CFC3 /* DownloadOperation+Protocol.swift in Sources */,
 				F5E56F642284036200E0250E /* CTAAlertsDownloadOperation.swift in Sources */,
 				F54D88CE22828BEA009D882B /* CTARoutes.swift in Sources */,
 				F54D88D022828C0D009D882B /* CTARouteURL.swift in Sources */,
