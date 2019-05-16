@@ -12,8 +12,7 @@ import Foundation
 
 class DownloadOperation: Operation {
     
-    private var _baseUrl = ""
-    private var _url = ""
+    private var _apiUrl: ApiURL?
     private var _completionBlock: ((Decodable?) -> Void)?
     
     convenience init(completion: @escaping (Decodable?) -> Void) {
@@ -30,14 +29,9 @@ extension DownloadOperation {
     
     // Instance Variables
     
-    var baseUrl: String {
-        get { return _baseUrl }
-        set { _baseUrl = newValue }
-    }
-    
-    var url: String {
-        get { return _url }
-        set { _url = newValue }
+    var apiUrl: ApiURL? {
+        get { return _apiUrl }
+        set { _apiUrl = newValue }
     }
     
     var onDownloadCompletion: ((Decodable?) -> Void)? {

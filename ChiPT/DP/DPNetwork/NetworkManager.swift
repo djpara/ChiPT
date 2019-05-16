@@ -39,7 +39,7 @@ enum NetworkOperationQueue {
 
 protocol NetworkManager {
     associatedtype Model: ApiProtocol
-    static func load(_ url: URL, withCompletion completion: @escaping (Decodable?) -> Void)
+    static func load(_ urlRequest: URLRequest, withCompletion completion: @escaping (Decodable?) -> Void)
 }
 
 // MARK: - Network Manager extension
@@ -50,11 +50,10 @@ extension NetworkManager {
         get { return OperationQueue() }
     }
     
-    static func load(_ url: URL, withCompletion completion: @escaping (Decodable?) -> Void) {
+    static func load(_ urlRequest: URLRequest, withCompletion completion: @escaping (Decodable?) -> Void) {
         let configuration = URLSessionConfiguration.ephemeral
         let session = URLSession(configuration: configuration, delegate: nil, delegateQueue: NetworkOperationQueue.main.queue)
-        let task = session.dataTask(with: url) { (data, response, error) in
-            
+        let task = session.dataTask(with: urlRequest) { (data, response, error) in
             if let error = error {
                 print("Error: \(error.localizedDescription)")
             }

@@ -14,8 +14,12 @@ class CTAAlertsDownloadOperation<Alerts: ApiProtocol>: DownloadOperation {
     
     // MARK: - Enums
     
-    enum RoutesParameter: String {
-        case type = "type", routeid = "routeid", stationid = "stationid"
+    enum AlertsId: String {
+        case routeid = "routeid", stationid = "stationid"
+    }
+    
+    enum AlertsType: String {
+        case bus = "bus", rail = "rail", station = "station", systemwide = "systemwide"
     }
     
     // MARK: - Initializers
@@ -23,19 +27,24 @@ class CTAAlertsDownloadOperation<Alerts: ApiProtocol>: DownloadOperation {
     override init() {
         super.init()
         
-        baseUrl = "http://www.transitchicago.com/api/1.0/routes.aspx"
-        url = "\(baseUrl)?OutputType=JSON"
+        apiUrl = ApiURL(url: "http://www.transitchicago.com/api/1.0/routes.aspx")
     }
     
-    convenience init(_ routesParameter: RoutesParameter, value: String) {
+    convenience init(_ alertsParameter: AlertsId, value: String) {
         self.init()
         
-        let parameter = "\(routesParameter.rawValue)=\(value)"        
-        url = "\(baseUrl)?\(parameter)&OutputType=JSON" // Override base initializer's reference setting
+        apiUrl?.addQueryItem(key: alertsParameter.rawValue, value: value)
+    }
+    
+    convenience init(_ alertsTypes: [(type: AlertsType, value: String)]) {
+        self.init()
+        
+        alertsTypes.forEach {
+            apiUrl?.addQueryItem(key: $0.type.rawValue, value: $0.value)
+        }
     }
     
     convenience init(completion: @escaping (Decodable?) -> Void) {
-        
         self.init()
         addDownloadCompletionBlock(completion)
     }
@@ -48,17 +57,19 @@ class CTAAlertsDownloadOperation<Alerts: ApiProtocol>: DownloadOperation {
             return
         }
         
-        guard let url = URL(string: url) else {
-            print("Invalid url")
-            return
-        }
-        
         guard let completion = onDownloadCompletion else {
             print("Completion block required to make a network request")
             return
         }
         
-        CTAAlertsNetworkManager<Alerts>.load(url, withCompletion: completion)
+        apiUrl?.addQueryItem(key: "OutputType", value: "JSON")
+        
+        guard let apiUrlRequest = apiUrl?.request else {
+            print("Invalid api url request")
+            return
+        }
+        
+        CTAAlertsNetworkManager<Alerts>.load(apiUrlRequest, withCompletion: completion)
     }
     
 }
